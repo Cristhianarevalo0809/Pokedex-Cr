@@ -71,7 +71,7 @@ body {
 	line-height: 1.5;
 	min-height: 100dvh;
 	font-size: var(--text-normal);
-	background-color: rgb(251, 251, 251);
+	background-color: rgb(255, 245, 245);
 }
 
 img,

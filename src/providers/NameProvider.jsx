@@ -27,7 +27,7 @@ function NameProvider({ children }) {
 	const [state, dispatch] = useReducer(reducer, initialState);
 	return (
 		<NameContext.Provider value={[state, dispatch]}>
-			{children};
+			{children}
 		</NameContext.Provider>
 	);
 }

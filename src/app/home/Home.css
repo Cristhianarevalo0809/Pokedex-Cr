@@ -6,7 +6,6 @@
 	position: relative;
 	width: 100%;
 	min-height: 100dvh;
-
 	display: grid;
 	place-content: center;
 }
@@ -20,6 +19,7 @@
 	width: 500px;
 	height: 500px;
 	border-radius: 5px 50px 5px 50px;
+	box-shadow: 0px 3px 10px 10px #ff8079b7;
 }
 .home__link {
 	display: flex;

@@ -1,5 +1,9 @@
 .details {
-	background-color: #444;
+	/* background-color: #444; */
+	background-image: url(/public/img/bg10.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	width: 100%;
 	min-height: 100dvh;
 	display: flex;
@@ -7,7 +11,7 @@
 	align-items: flex-start;
 }
 .details__container {
-	background-color: rgb(255, 241, 241);
+	background-color: rgb(166, 166, 166);
 	width: 100%;
 	max-width: 900px;
 	padding: 4em 2.5em;
@@ -36,11 +40,11 @@
 	color: #000000;
 }
 .details_summoners {
+	display: flex;
+	flex-direction: column;
 	background-color: #ded3d3a5;
 	text-align: center;
-	margin: 0%;
-	width: 500px;
-	margin-left: 150px;
+
 	border-radius: 20px;
 }
 .details__img {
